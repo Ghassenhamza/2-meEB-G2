@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+}
+.contact{
+    background-image: url("gassen.jpg");
+    width: 60%;
+    height: 450px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    opacity: 0.9;
+    border-radius: 7px;
+
+}
+.contact.heading.h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: darkblue;
+}
+.contact.row{
+   display: flex;
+   background:var(--black) ;
+   flex-wrap: wrap;
+   gap: 1rem;
+
+}
+.contact.row.map{
+   flex: 1 1 45rem;
+   width:100%;
+   object-fit: cover;
+}
+.contact.row form{
+    flex: 1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+} 
+.contact.row form h2{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#fff;
+}
+.contact.row form.inputbox{
+    display: flex ;
+    align-items:center;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    background: var(--bg);
+    border: var(--border);
+}    
+.contact.row form.inputbox span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.contact.row form.inputbox input{
+    width: 100%;
+    padding:2rem;
+    font-size:1.7rem;
+    color:#fff;
+    text-transform:none;
+    background: none;
+}
